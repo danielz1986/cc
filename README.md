@@ -1,4 +1,3 @@
-```mermaid
 graph TD
     %% Akteure und Prozessschritte
     A([Start: Presales erstellt Opportunity]) --> B[Erarbeitung Lösungskonzept]
@@ -22,11 +21,11 @@ graph TD
     J -- Unterschrieben --> L[Planung durch Projektmanagement]
     L --> M([Ende: Projektauftakt])
     
-    %% Styling im CANCOM Corporate Design (Rot & Grautöne)
-    classDef default fill:#ffffff,stroke:#4a4a4a,stroke-width:1px,color:#333333;
-    classDef cancomRed fill:#ffffff,stroke:#DA002D,stroke-width:2px,color:#DA002D;
-    classDef cancomSolid fill:#DA002D,stroke:#DA002D,stroke-width:2px,color:#ffffff;
-    classDef grayBox fill:#f5f5f5,stroke:#a7a7a7,stroke-width:2px,color:#333333;
+    %% Styling (ohne Raute-Zeichen um Kopierfehler zu vermeiden)
+    classDef default fill:white,stroke:dimgray,stroke-width:1px,color:black;
+    classDef cancomRed fill:white,stroke:crimson,stroke-width:2px,color:crimson;
+    classDef cancomSolid fill:crimson,stroke:crimson,stroke-width:2px,color:white;
+    classDef grayBox fill:whitesmoke,stroke:darkgray,stroke-width:2px,color:black;
     
     %% Zuweisung der Stile
     class A,M cancomSolid;
@@ -36,4 +35,4 @@ graph TD
     class I cancomSolid;
 
     %% Linienfarbe anpassen
-    linkStyle default stroke:#DA002D,stroke-width:2px,color:#333333;
+    linkStyle default stroke:crimson,stroke-width:2px,color:black;
