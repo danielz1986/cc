@@ -3,12 +3,12 @@ graph TD
     A([Start: Presales erstellt Opportunity]) --> B[Erarbeitung Lösungskonzept]
     
     B --> C{Service-Spezifikation}
-    C --> D[Zuständige Fachabteilung einbinden]
-    D --> E{Approval Fachabteilung?}
+    C --> D[Zuständige Fachabteilung(en) einbinden]
+    D --> E{Approval Fachabteilung(en)?}
     E -- Anpassung nötig --> B
     E -- Approved --> F[Erstellung Angebotsdesign]
     
-    F --> G[Prüfung durch Manager Fachabteilungen & Projektmanagement]
+    F --> G[Prüfung durch Manager Fachabteilung(en) & Projektmanagement]
     G --> H{Ressourcen-Approval erteilt?}
     H -- Anpassung nötig --> F
     H -- Approved --> I[Finales Angebot an Kunden versenden]
